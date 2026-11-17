@@ -9,7 +9,7 @@ const dados = {
 
         informacoesPessoais: {
             nomeCompleto: "Gustavo Manzalli Cury Tozatto",
-            foto: "./foto.JPEG",
+            foto: "foto.jpeg",
             tituloProfissional: "Desenvolvedor Java",
 
             email: "gustavomanzalli68@gmail.com",
