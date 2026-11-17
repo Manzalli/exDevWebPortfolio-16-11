@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Currículo | Gustavo Manzalli</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+
+            <img
+                id="fotoPerfil"
+                class="foto-perfil"
+                src="./foto.JPEG"
+                alt="Foto de Gustavo Manzalli"
+            >
+
+            <div class="cabecalho-texto">
+                <h1 id="nome"></h1>
+                <p id="titulo" class="titulo"></p>
+                <span class="disponibilidade">Desenvolvedor em formação</span>
+            </div>
+
+        </header>
+
+        <!-- Contato -->
+        <section>
+            <h2>Contato</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Campo</th>
+                            <th>Informação</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="corpoContato"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Resumo -->
+        <section>
+            <h2>Resumo profissional</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Campo</th>
+                            <th>Informação</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="corpoResumo"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Formação -->
+        <section>
+            <h2>Formação acadêmica</h2>
+
+            <div class="tabela-container">
+                <table class="tabela-larga">
+                    <thead>
+                        <tr>
+                            <th>Instituição</th>
+                            <th>Curso</th>
+                            <th>Nível</th>
+                            <th>Período</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="corpoFormacao"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section>
+            <h2>Habilidades técnicas</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Habilidade</th>
+                            <th>Nível</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="corpoHabilidades"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Cursos -->
+        <section>
+            <h2>Cursos e certificações</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Instituição</th>
+                            <th>Conclusão</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="corpoCursos"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <p id="atualizacao"></p>
+            <p>Desenvolvido por Gustavo Manzalli</p>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
